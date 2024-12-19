@@ -1,0 +1,270 @@
+     body {
+  color: white;
+  margin: 0;
+  
+    }
+    header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #35424a;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 140px;
+    border-bottom: 4px solid red;
+    z-index: 400;
+    }
+    .left-section span {
+     color: red;
+    }
+    h1 {
+     font-size: 50px;
+    }
+    a {
+    text-decoration: none;
+    color: white;
+    }
+    
+    .current {
+      color: red;
+    }
+    
+    .right-section {
+     width: 400px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+    }
+    .right-section p {
+      font-size: 25px;
+    }
+       .img-c .title-c {
+     width: 1200px;
+     height: 500px;
+     position: absolute;
+     top: -30px;
+     left: 100px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+    }
+    .img-c {
+     position: relative;
+    }
+    .img-c img {
+    z-index: -5;
+     width: 1540px;
+     
+    }
+    .img-c .professional {
+    font-size: 90px;
+    font-weight: 700;
+    text-align: center;
+    }
+    .img-c p {
+    font-size: 30px;
+    text-align: center;
+     
+    }    
+      .stats {
+    position: absolute;
+    top: 877px;    
+    background-color: #35424a;
+    width: 1240px;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 150px;
+    z-index: 200;
+    }
+     .stats-2 {
+    position: fixed;
+    top: 154px;
+    left: 0;
+    right: 0;
+    background-color: #35424a;
+    height: 150px;    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 150px;
+    z-index: 200;
+    }
+     .stats p,
+    .stats-2 p {
+    font-size: 35px;
+    font-weight: bold;
+    }
+    .stats input,
+    .stats-2 input {
+     padding: 18px 200px 18px 5px;
+     font-size: 20px;
+    }
+    .stats button,
+    .stats-2 button {
+     border: none;
+     color: white;
+     background-color: red;
+     padding: 20px 40px 20px 40px;
+     font-size: 20px;
+     
+      
+    } 
+      /* about Page */
+     .title-c {
+    position: relative;
+    margin-top: 304px;
+    width: 1340px;
+    height: 700px;
+    padding: 20px 100px;
+   }
+   .about-us-p {   
+    font-weight: bold;
+    font-size: 30px;
+   }
+    .about-us-p,
+    .title-1 {
+     color: black;
+    }
+   .title-1, 
+   .title-2 {
+    width: 800px;
+    line-height: 35px;
+    font-size: 24px;
+   }
+   .title-2 {
+   background-color: #35424a;
+    height: 320px;
+   padding: 5px 17px 5px 10px;
+   }
+   .title-3 {
+   position: absolute;
+   top: 40px;
+   right: 150px;
+   background-color: #35424a;
+   width: 355px;
+   height: 400px;
+   padding: 20px 20px;
+   line-height: 35px;
+   font-size: 24px;
+   }
+   .title-3 .what-p {
+    font-weight: bold;
+    font-size: 30px;
+   } 
+  
+    .technologys {
+    height: 500px;
+    width: 1200px;
+     color: black;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 0 150px;
+    }
+    .technologys .technology {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     width: 360px;
+    }
+    .technologys .name-1 {
+     font-size: 30px;
+     font-weight: bold;
+     margin: 40px 0;
+    }
+    .technologys p {
+    font-size: 23px;
+    line-height: 35px;
+     margin: 0;
+     text-align: center;
+     
+    }
+    .end,
+    .end-2 {
+    background-color: red;
+    width: 1540px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    }
+   .end-2 {
+     position: absolute;
+     top: 1040px;
+    }
+  
+   /* service */
+  
+      .service-info { 
+       color: black;    
+      width: 1500px;
+      height: 1100px;
+      margin-top: 304px;
+      padding: 10px 0;
+      position: relative;
+     }
+     .s-p {
+     margin-left: 150px;
+     }
+     .services-1 { 
+     margin: 0 0 0 150px;
+     }
+     .service-1 {
+     padding: 20px;
+     margin-bottom: 5px;
+     width: 740px;
+     height: 280px;
+     background-color: rgb(230, 230, 230);
+     }
+    .service-1
+    .website-p,
+    .s-p {
+     font-size: 30px;
+      font-weight: bold;
+     }
+     .service-1 p {
+     font-size: 23px;
+     line-height: 35px; 
+     }
+     .account-c {
+     color: white;
+     position: absolute;
+     top: 50px;
+     right: 80px;
+     background-color: #35424a;
+     width: 350px;
+     height: 460px;
+     padding: 20px;
+     }
+     .get-p {
+      font-weight: bold;
+      font-size: 30px;  
+     }
+     .account p {
+      margin: 5px 0;
+      font-size: 25px;
+     }
+     .account input {
+      padding: 10px 60px 10px 10px;
+      font-size: 20px;
+     }
+     .account .massage {
+      padding: 10px 60px 40px 10px;
+      font-size: 20px;
+     }
+     .account button {
+      color: white;
+      font-size: 20px;
+      background-color: red;
+      border: none;
+      padding: 15px 30px;
+      margin-top: 10px;
+     }
